@@ -22,7 +22,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.athallah.laundryku.R
-import com.athallah.laundryku.ui.component.LaundryBanner
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -50,7 +49,6 @@ fun AboutScreen(navController: NavHostController) {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
-            LaundryBanner()
             Text(
                 text = stringResource(R.string.about_heading),
                 style = MaterialTheme.typography.headlineSmall,

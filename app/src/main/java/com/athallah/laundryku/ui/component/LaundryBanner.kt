@@ -2,8 +2,8 @@ package com.athallah.laundryku.ui.component
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.LocalLaundryService
@@ -22,35 +22,23 @@ import com.athallah.laundryku.R
 fun LaundryBanner(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier
-            .clip(RoundedCornerShape(24.dp))
-            .background(
-                Brush.linearGradient(
-                    colors = listOf(Color(0xFF0EA5E9), Color(0xFFBAE6FD))
-                )
-            ),
+            .clip(RoundedCornerShape(20.dp))
+            .background(Color(0xFFE0F2FE)),
         contentAlignment = Alignment.Center
     ) {
         Box(
             modifier = Modifier
-                .size(126.dp)
-                .clip(CircleShape)
-                .background(Color.White.copy(alpha = 0.25f)),
+                .size(92.dp)
+                .clip(RoundedCornerShape(20.dp))
+                .background(Color.White),
             contentAlignment = Alignment.Center
         ) {
-            Box(
-                modifier = Modifier
-                    .size(92.dp)
-                    .clip(CircleShape)
-                    .background(Color.White),
-                contentAlignment = Alignment.Center
-            ) {
-                Icon(
-                    imageVector = Icons.Default.LocalLaundryService,
-                    contentDescription = stringResource(R.string.laundry_image_desc),
-                    tint = Color(0xFF0EA5E9),
-                    modifier = Modifier.size(48.dp)
-                )
-            }
+            Icon(
+                imageVector = Icons.Default.LocalLaundryService,
+                contentDescription = stringResource(R.string.laundry_image_desc),
+                tint = Color(0xFF0EA5E9),
+                modifier = Modifier.size(44.dp)
+            )
         }
     }
 }
