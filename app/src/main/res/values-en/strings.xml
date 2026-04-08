@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">LaundryKu</string>
+    <string name="about_title">About App</string>
+    <string name="back_button">Back</string>
+    <string name="main_intro">This app is used to calculate estimated laundry costs based on the customer name, laundry weight, and selected service.</string>
+    <string name="input_name">Customer name</string>
+    <string name="input_weight">Laundry weight</string>
+    <string name="weight_unit">kg</string>
+    <string name="choose_service">Choose service type</string>
+    <string name="service_regular">Regular</string>
+    <string name="service_express">Express</string>
+    <string name="service_option_template">%1$s - %2$s / kg</string>
+    <string name="calculate_button">Calculate Total</string>
+    <string name="share_button">Share Result</string>
+    <string name="result_title">Calculation Result</string>
+    <string name="result_name">Name: %1$s</string>
+    <string name="result_service">Service: %1$s</string>
+    <string name="result_weight">Weight: %1$s kg</string>
+    <string name="result_total">Total payment: %1$s</string>
+    <string name="error_name">Customer name is required.</string>
+    <string name="error_weight">Laundry weight must be greater than 0 kg.</string>
+    <string name="share_template">Hello, my name is %1$s and I want %2$s laundry service with a weight of %3$s kg. My estimated total cost is %4$s.</string>
+    <string name="about_heading">App Description</string>
+    <string name="about_description">LaundryKu is a simple application used to calculate estimated laundry costs. Users can enter the customer name, laundry weight, and choose either regular or express service. After that, the app displays the total payment and the result can also be shared to another app. Created by Athallah Fadhlurrahman.</string>
+    <string name="laundry_image_desc">Laundry basket illustration</string>
+</resources>
