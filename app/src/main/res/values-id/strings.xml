@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">LaundryKu</string>
+    <string name="about_title">Tentang Aplikasi</string>
+    <string name="back_button">Kembali</string>
+    <string name="main_intro">Aplikasi ini dipakai buat ngitung perkiraan biaya laundry dari nama pelanggan, berat pakaian, dan layanan yang dipilih.</string>
+    <string name="input_name">Nama pelanggan</string>
+    <string name="input_weight">Berat laundry</string>
+    <string name="weight_unit">kg</string>
+    <string name="choose_service">Pilih jenis layanan</string>
+    <string name="service_regular">Reguler</string>
+    <string name="service_express">Express</string>
+    <string name="service_option_template">%1$s - %2$s / kg</string>
+    <string name="calculate_button">Hitung Total</string>
+    <string name="share_button">Bagikan Hasil</string>
+    <string name="result_title">Hasil Perhitungan</string>
+    <string name="result_name">Nama: %1$s</string>
+    <string name="result_service">Layanan: %1$s</string>
+    <string name="result_weight">Berat: %1$s kg</string>
+    <string name="result_total">Total bayar: %1$s</string>
+    <string name="error_name">Nama pelanggan wajib diisi.</string>
+    <string name="error_weight">Berat laundry harus lebih dari 0 kg.</string>
+    <string name="share_template">Halo, saya %1$s ingin laundry %2$s dengan berat %3$s kg. Estimasi total biaya saya adalah %4$s.</string>
+    <string name="about_heading">Penjelasan Aplikasi</string>
+    <string name="about_description">LaundryKu adalah aplikasi sederhana untuk menghitung perkiraan biaya laundry. Pengguna bisa mengisi nama pelanggan, berat laundry, lalu memilih layanan reguler atau express. Setelah itu aplikasi akan menampilkan total biaya yang harus dibayar dan hasilnya juga bisa dibagikan ke aplikasi lain. Dibuat oleh Athallah Fadhlurrahman.</string>
+    <string name="laundry_image_desc">Ilustrasi keranjang laundry</string>
+</resources>
